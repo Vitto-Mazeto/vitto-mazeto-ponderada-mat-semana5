@@ -58,19 +58,16 @@ $$
 
 ### Restrições
 1. **Limitação do orçamento**:
-$$
-\sum_{i=1}^{n} C_i \cdot x_i \leq 950
-$$
+
+    $\sum_{i=1}^{n} C_i \cdot x_i \leq 950$
 
 2. **Limitação do número de programadores**:
-$$
-\sum_{i=1}^{n} P_i \cdot x_i \leq 20
-$$
+
+    $\sum_{i=1}^{n} P_i \cdot x_i \leq 20$
 
 3. **Exclusividade dos projetos 2 e 6**:
-$$
-x_2 + x_6 \leq 1
-$$
+
+    $x_2 + x_6 \leq 1$
 
 ## Resolução do Solver
 - O solver foi criado usando OR-Tools. Está no solver.py, nesse mesmo repositório. E segue abaixo o print do resultado.
